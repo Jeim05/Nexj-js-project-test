@@ -128,6 +128,7 @@ article h4 {
 .next {
   right: 0;
 }
+
 @media (min-width: 800px) {
   .text {
     max-width: 45em;

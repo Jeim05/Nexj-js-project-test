@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import data from "../components/data";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 const Slider = () => {
   const [people] = useState(data);
@@ -51,10 +53,10 @@ const Slider = () => {
           );
         })}
         <button className="prev" onClick={() => setIndex(index - 1)}>
-          <i className="fas fa-arrow-left" />
+        <FontAwesomeIcon icon={faArrowLeft} />
         </button>
         <button className="next" onClick={() => setIndex(index + 1)}>
-          <i className="fas fa-arrow-right" />
+        <FontAwesomeIcon icon={faArrowRight} />
         </button>
       </div>
     </section>
