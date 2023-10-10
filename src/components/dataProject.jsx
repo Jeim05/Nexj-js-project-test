@@ -19,7 +19,7 @@ const project = [
                 id: 3,
                 name: "JavaScript",
                 icon: ['fa-brands', 'fa-square-js'],
-                color: "text-yellow-500"
+                color: "text-white"
             }
         ]
     },
