@@ -32,7 +32,7 @@ h4 {
   margin: 0 auto;
   margin-top: 4rem;
   width: 80vw;
-  height: 450px;
+  height: 300px;
   max-width: 800px;
   text-align: center;
   position: relative;
@@ -45,7 +45,7 @@ article {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
   opacity: 0;
   transition: all 0.3s linear;
 }
@@ -104,7 +104,7 @@ article h4 {
 .prev,
 .next {
   position: absolute;
-  top: 200px;
+  top: 150px;
   transform: translateY(-50%);
   background: hsl(210, 22%, 49%);
   color: #fff;
@@ -120,7 +120,7 @@ article h4 {
 }
 .prev:hover,
 .next:hover {
-  background: hsl(21, 61%, 43%);
+  background: #2657A4;
 }
 .prev {
   left: 0;

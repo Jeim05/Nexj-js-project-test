@@ -27,9 +27,9 @@ const Characteristics = () => {
                         icon={card.icon} />
                 ))}
             </div>
-            <div className='text-center text-white'>
-            <button onClick={ loadMoreCard} className='bg-black py-4 px-6'>Cargar más</button>
-            </div>  
+            <div className='text-center text-white mt-10'>
+                <button onClick={loadMoreCard} className='bg-[#2657A4] rounded-md py-3 px-10 font-bold shadow-lg shadow-blue-gray-300 hover:text-[#2657A4] hover:bg-[#D7E8EF] '>Cargar más</button>
+            </div>
         </div>
 
     )

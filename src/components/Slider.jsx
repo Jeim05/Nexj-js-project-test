@@ -53,10 +53,10 @@ const Slider = () => {
           );
         })}
         <button className="prev" onClick={() => setIndex(index - 1)}>
-        <FontAwesomeIcon icon={faArrowLeft} />
+          <FontAwesomeIcon icon={faArrowLeft} />
         </button>
         <button className="next" onClick={() => setIndex(index + 1)}>
-        <FontAwesomeIcon icon={faArrowRight} />
+          <FontAwesomeIcon icon={faArrowRight} />
         </button>
       </div>
     </section>
