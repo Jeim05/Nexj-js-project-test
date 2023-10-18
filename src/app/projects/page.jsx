@@ -1,10 +1,17 @@
 import React from 'react'
 import Project from '@/components/Projects'
+import NavAbout from '@/components/NavAbout'
+
 
 export default function page() {
   return (
-    <div className='container mx-auto px-4'>
-     <Project />
-    </div>
+    <main className='container mx-auto px-4'>
+      <section className='mt-40 bg-black'>
+        <div className="container mx-auto px-4 py-2">
+          <NavAbout />
+        </div>
+      </section>
+      <Project />
+    </main>
   )
 }

@@ -129,6 +129,11 @@ article h4 {
   right: 0;
 }
 
+.active-link {
+  color: #000; 
+  background: transparent;
+}
+
 @media (min-width: 800px) {
   .text {
     max-width: 45em;
